@@ -1,0 +1,247 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: lighter;
+}
+body {
+	width: 900px;
+	height: auto;
+	margin: auto;
+/*	background-color: black;*/
+/*	outline: 2px solid black;
+*/}
+/*div {
+	background-color: white;
+}*/
+.header {
+	height: 200px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.header img {
+	width: 110px;
+	height: 110px;
+	z-index: 1;
+}
+.header h1 {
+	padding-top: 20px;
+	font-size: 70px;
+	color: grey;
+	width: auto;
+}
+.header span {
+	color: #3098d9;
+}
+.header h2 {
+	display: block;
+	font-size: 40px;
+	height: 70px;
+	background: linear-gradient(#2867A0, #5283AD, #2867A0);
+	width: 900px;
+	margin-top: -30px;
+	padding: 20px 0px 0px 20px;
+	color: white;
+}
+.main {
+	display: flex;
+	height: auto;
+	margin-top: -10px;
+	background: linear-gradient(to bottom, lightgrey, white 15%);
+}
+.toolbar {
+	width: 190px;
+	height: auto;
+/*	background-color: lightgrey;*/
+	padding: 5px;
+	font-weight: bold;
+}
+.toolbar h3 span {
+	color: red;
+	font-weight: bold;
+}
+.toolbar p span {
+	color: #2867A0;
+	font-weight: bold;
+}
+.toolbar h3, p, button, hr, img {
+	margin-top: 20px;
+}
+.toolbar button {
+	background: #3098d9;
+	background-image: -webkit-linear-gradient(top, #3098d9, #096aab);
+	background-image: -moz-linear-gradient(top, #3098d9, #096aab);
+	background-image: -ms-linear-gradient(top, #3098d9, #096aab);
+	background-image: -o-linear-gradient(top, #3098d9, #096aab);
+	background-image: linear-gradient(to bottom, #3098d9, #096aab);
+	-webkit-border-radius: 12;
+	-moz-border-radius: 12;
+	border-radius: 6px;
+	-webkit-box-shadow: 2px 2px 2px #666666;
+	-moz-box-shadow: 2px 2px 2px #666666;
+	box-shadow: 2px 2px 2px #666666;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 14px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	width: 190px;
+	height: 40px;
+}
+.toolbar button:nth-of-type(2) {
+	background-image: linear-gradient(to bottom, #fa8e0a, #d97000);
+	margin-top: 5px;
+/*	font-size: 14px;*/
+}
+.ninja {
+	margin-top: 20px;
+	width: 190px;
+	height: 300px;
+	background-image: url("images/ad_background.png");
+/*	background-image: contain;*/
+}
+.ninja img {
+	display: block;
+	margin: auto;
+	width: 100px;	
+}
+.ninja h3 {
+	text-align: center;
+	font-size: 22px;
+	color: white;
+	padding-top: 20px;
+}
+.ninja button {
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	height: 30px;
+	width: 170px;
+	background: #15d9cf;
+	padding: 5px 20px 5px 20px;
+	box-shadow: 2px 2px 2px #000000;
+}
+.content {
+	width: 700px;
+	height: auto;
+/*	padding-left: 30px;
+	padding-right: 20px;*/
+}
+.content .header {
+	width: 680px;
+	height: auto;
+	padding: 10px;
+	padding-bottom: 0px;
+/*	outline: 2px solid black;*/
+}
+.content h4 {
+	color: #2867A0;
+	font-size: 25px;
+	padding-left: 20px;
+}
+.content .header img:nth-of-type(1) {
+	vertical-align: top;
+/*	margin-left: 200px;*/
+	width: 25px;
+	height: 25px;
+	margin-top: 0px;
+	position: relative;
+	left: 15px;
+}
+.content .header img:nth-of-type(2) {
+	vertical-align: top;
+	position: relative;
+	margin-left: 310px;
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+	position: relative;
+/*	margin-left: 20px;*/
+}
+.right-header {
+	position: relative;
+	display: inline-block;
+	width: 220px;
+	height: 80px;
+	text-align: center;
+}
+.right-header p, h3 {
+	margin-top: 2px;
+}
+.right-header p {
+	font-size: 12px;
+}
+.right-header h3 {
+	color: #15d9cf;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 0px;
+}
+.content .main-content {
+	padding: 20px;
+}
+hr {
+	color: black;
+	margin-top: 0px;
+}
+.main-content p, h3, ul {
+	padding-top: 5px; 
+	margin-top: 0px;
+}
+.main-content ul {
+	margin-left: 40px;
+}
+.main-content ul li {
+	padding-top: 5px;
+}
+.main-content img:nth-of-type(1) {
+	display: block;
+	margin: auto;
+	width: 400px;
+	padding: 20px;
+}
+.main-content h3 {
+	padding: 0px;
+	font-weight: bold;
+	color: #2867A0;
+	font-size: 20px;
+}
+.main-content p span, li span {
+	color: #2867A0;
+}
+.main-content p strong {
+	font-weight: bold;
+}
+.main-content ul:nth-of-type(2) li {
+	list-style-type: decimal;
+}
+.main .big-3 {
+	width: 690px;
+	height: auto;
+	border: 5px solid #2867A0;
+	/*display: flex;*/
+}
+.main .big-3 img{
+	display: inline-block;
+	margin-top: 0px;
+	vertical-align: top;
+	width: 100px;
+	padding: 10px;
+}
+.main .big-3-text {
+	display: inline-block;
+	padding: 10px;
+}
+.big-3 h3 {
+	padding: 0px;
+	font-weight: bold;
+	color: #2867A0;
+	font-size: 20px;
+	margin-left: 20px;
+}
+.big-3 p {
+	padding: 0px;
+	font-size: 15px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
